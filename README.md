@@ -1,2 +1,4 @@
 # codegen
-functions for writing golang programs
+tools to help programs write programs in golang, shell, and beyond
+
+

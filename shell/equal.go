@@ -4,14 +4,14 @@ import (
 	"bufio"
 	"bytes"
 	"io"
-	"string"
+	"strings"
 )
 
 type lineGetter struct {
 	r *bufio.Scanner
 }
 
-func newLineGetter(a io.Reader) {
+func newLineGetter(a io.Reader) lineGetter {
 	return lineGetter{
 		r: bufio.NewScanner(a),
 	}

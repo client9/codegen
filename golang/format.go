@@ -1,7 +1,7 @@
 package golang
 
 import (
-	"github.com/golang/go/format"
+	"go/format"
 )
 
 // Format formats golang codein the cannonical way.
